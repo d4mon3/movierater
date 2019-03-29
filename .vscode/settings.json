@@ -1,0 +1,14 @@
+{
+  "xml.fileAssociations": [
+    {
+      "systemId": "c:\\_Python\\tudo\\outro\\tasks\\schema\\tns.xsd",
+      "pattern": "**/**/*.xml"
+    }
+  ],
+  "files.exclude": {
+    "schema": true,
+    "**/*.js": {
+      "when": "$(basename).ts"
+    }
+  }
+}
